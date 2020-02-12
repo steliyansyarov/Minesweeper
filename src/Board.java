@@ -29,23 +29,23 @@ public class Board extends JPanel implements MouseListener {
        this.addMouseListener(this); // program listens to mouse clicks
 
         Toolkit toolkit = Toolkit.getDefaultToolkit();
-        im0 = toolkit.getImage("0.png");
-        im1 = toolkit.getImage("1.png");
-        im2 = toolkit.getImage("2.png");
-        im3 = toolkit.getImage("3.png");
-        im4 = toolkit.getImage("4.png");
-        im5 = toolkit.getImage("5.png");
-        im6 = toolkit.getImage("6.png");
-        im7 = toolkit.getImage("7.png");
-        im8 = toolkit.getImage("8.png");
-        hidden_tile = toolkit.getImage(getClass().getResource("hidden_tile.png"));//"res/hidden_tile.png"
-        mine = toolkit.getImage("mine.png");
-        exploded_mine = toolkit.getImage("exploded_mine.png");
-        flag = toolkit.getImage("flag.png");
-        false_flag = toolkit.getImage("false_flag.png");
-        win = toolkit.getImage("win.png");
-        loss = toolkit.getImage("loss.png");
-        ingame = toolkit.getImage("ingame.png");
+        im0 = toolkit.getImage(getClass().getResource("0.png"));
+        im1 = toolkit.getImage(getClass().getResource("1.png"));
+        im2 = toolkit.getImage(getClass().getResource("2.png"));
+        im3 = toolkit.getImage(getClass().getResource("3.png"));
+        im4 = toolkit.getImage(getClass().getResource("4.png"));
+        im5 = toolkit.getImage(getClass().getResource("5.png"));
+        im6 = toolkit.getImage(getClass().getResource("6.png"));
+        im7 = toolkit.getImage(getClass().getResource("7.png"));
+        im8 = toolkit.getImage(getClass().getResource("8.png"));
+        hidden_tile = toolkit.getImage(getClass().getResource("hidden_tile.png"));
+        mine = toolkit.getImage(getClass().getResource("mine.png"));
+        exploded_mine = toolkit.getImage(getClass().getResource("exploded_mine.png"));
+        flag = toolkit.getImage(getClass().getResource("flag.png"));
+        false_flag = toolkit.getImage(getClass().getResource("false_flag.png"));
+        win = toolkit.getImage(getClass().getResource("win.png"));
+        loss = toolkit.getImage(getClass().getResource("loss.png"));
+        ingame = toolkit.getImage(getClass().getResource("ingame.png"));
     }
 
     @Override
