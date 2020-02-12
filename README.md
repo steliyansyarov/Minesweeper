@@ -8,7 +8,7 @@ The goal is to discover all mines.
 Numbers represent the number of nearby mines.
 
 __Note:__  
-One functionality from the original game is not implemented, being first click always opens an empty cell.
+One functionality from the original game is not implemented, which is that first click always opens an empty cell.
 
 ![](image1.png)
 ![](image2.png)
